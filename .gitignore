@@ -205,3 +205,42 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.idea/
+
+# TensorFlow / Keras
+*.h5
+*.hdf5
+*.keras
+*.pb
+*.ckpt
+*.ckpt.*
+checkpoint
+saved_model/
+logs/
+training_checkpoints/
+
+# TensorBoard
+tensorboard_logs/
+tb_logs/
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.safetensors
+weights/
+checkpoints/
+
+# Large datasets (uncomment if you don't want to track these)
+# *.csv
+# *.npy
+# *.npz
+# data/
+
+# Matplotlib
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
